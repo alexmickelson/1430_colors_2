@@ -4,104 +4,372 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Palette Exercise</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="container">
-      <header>Welcome to the page site</header>
+    <!-- header -->
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Simple header</span>
+        </a>
 
-      <div id="content">
-        <aside id="sidebar">Sidebar Content
-          <ul>
-            <li>First Link</li>
-            <li>Second Link</li>
-            <li>Third Link</li>
-            <li>Fourth Link</li>
-            <li>Fifth Link</li>
-          </ul>
-        </aside>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </header>
+    </div>
 
-        <main id="main">
-          <h1>LOREM IPSUM</h1>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet
-            sagittis id consectetur purus ut faucibus. Ante metus dictum at
-            tempor commodo. Vitae congue eu consequat ac felis donec et odio.
-            Hac habitasse platea dictumst quisque. In hac habitasse platea
-            dictumst quisque. Proin fermentum leo vel orci porta non pulvinar
-            neque. Non blandit massa enim nec dui nunc mattis. Viverra accumsan
-            in nisl nisi scelerisque eu ultrices. Vulputate enim nulla aliquet
-            porttitor lacus luctus accumsan. Bibendum neque egestas congue
-            quisque egestas diam. Amet risus nullam eget felis eget nunc
-            lobortis mattis. Habitasse platea dictumst quisque sagittis purus
-            sit amet volutpat consequat. Diam volutpat commodo sed egestas
-            egestas. Nibh sed pulvinar proin gravida hendrerit lectus a. Mauris
-            rhoncus aenean vel elit scelerisque mauris.
+    <!-- body -->
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+            Vertically centered hero sign-up form
+          </h1>
+          <p class="col-lg-10 fs-4">
+            Below is an example form built entirely with Bootstrap’s form
+            controls. Each required form group has a validation state that can
+            be triggered by attempting to submit the form without completing it.
           </p>
-          <p>
-            In hendrerit gravida rutrum quisque non tellus orci ac auctor. Diam
-            in arcu cursus euismod quis viverra nibh cras. In hendrerit gravida
-            rutrum quisque non tellus orci ac. Neque ornare aenean euismod
-            elementum nisi quis. Sem viverra aliquet eget sit amet tellus cras
-            adipiscing enim. Sit amet justo donec enim diam vulputate ut
-            pharetra sit. Et ligula ullamcorper malesuada proin libero nunc
-            consequat interdum. Tellus integer feugiat scelerisque varius morbi
-            enim nunc. Egestas sed sed risus pretium quam vulputate dignissim.
-            Neque aliquam vestibulum morbi blandit cursus risus at ultrices.
-          </p>
-          <p>
-            Vitae proin sagittis nisl rhoncus mattis rhoncus. Dui nunc mattis
-            enim ut tellus elementum. Faucibus in ornare quam viverra orci. Amet
-            volutpat consequat mauris nunc congue nisi vitae suscipit.
-            Vestibulum sed arcu non odio euismod. Eget aliquet nibh praesent
-            tristique magna sit amet purus gravida. Enim nulla aliquet porttitor
-            lacus luctus accumsan tortor. Scelerisque eleifend donec pretium
-            vulputate sapien. Odio tempor orci dapibus ultrices in iaculis nunc
-            sed. Nunc mattis enim ut tellus elementum sagittis. Turpis egestas
-            maecenas pharetra convallis. Et ultrices neque ornare aenean. Non
-            arcu risus quis varius quam quisque id diam vel. Suspendisse
-            faucibus interdum posuere lorem ipsum dolor sit amet consectetur.
-            Est lorem ipsum dolor sit amet consectetur adipiscing elit. Maecenas
-            ultricies mi eget mauris pharetra et ultrices neque ornare. Est
-            ultricies integer quis auctor. Ac turpis egestas maecenas pharetra
-            convallis posuere morbi. Consequat semper viverra nam libero justo
-            laoreet sit amet cursus. Volutpat est velit egestas dui id.
-          </p>
-          <p>
-            Porttitor lacus luctus accumsan tortor posuere. Id porta nibh
-            venenatis cras sed felis eget velit. Orci sagittis eu volutpat odio
-            facilisis mauris sit amet massa. Tincidunt lobortis feugiat vivamus
-            at augue eget arcu. Condimentum mattis pellentesque id nibh tortor
-            id. In arcu cursus euismod quis viverra nibh cras pulvinar mattis.
-            Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare. In
-            hac habitasse platea dictumst quisque sagittis purus. Lacus
-            vestibulum sed arcu non. Netus et malesuada fames ac turpis. Massa
-            tincidunt dui ut ornare.
-          </p>
-          <p>
-            Ac turpis egestas integer eget aliquet. Malesuada fames ac turpis
-            egestas sed tempus. Ut consequat semper viverra nam libero justo
-            laoreet sit. Mauris nunc congue nisi vitae suscipit tellus mauris.
-            Faucibus vitae aliquet nec ullamcorper sit amet risus. Diam sit amet
-            nisl suscipit adipiscing bibendum est ultricies. Amet consectetur
-            adipiscing elit duis tristique sollicitudin nibh sit. Ut tellus
-            elementum sagittis vitae et. Nam libero justo laoreet sit amet.
-            Lobortis elementum nibh tellus molestie nunc non blandit. Risus
-            nullam eget felis eget nunc. Urna nec tincidunt praesent semper
-            feugiat nibh sed pulvinar proin. Eget lorem dolor sed viverra ipsum
-            nunc aliquet bibendum. Mollis aliquam ut porttitor leo. Porttitor
-            lacus luctus accumsan tortor posuere ac ut consequat. Nibh venenatis
-            cras sed felis eget. Orci nulla pellentesque dignissim enim sit
-            amet. Morbi non arcu risus quis varius quam quisque id. Nunc sed
-            augue lacus viverra vitae.
-          </p>
-        </main>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form
+            class="p-4 p-md-5 border rounded-3"
+            data-bitwarden-watching="1"
+          >
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me" /> Remember me
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              Sign up
+            </button>
+            <hr class="my-4" />
+            <small class="text-body-secondary"
+              >By clicking Sign up, you agree to the terms of use.</small
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <main class="container">
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Free</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $0<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary"
+              >
+                Sign up for free
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $15<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 users included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Get started
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $29<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 users included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <footer>Footer Content</footer>
+      <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+      <div class="table-responsive">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th style="width: 34%"></th>
+              <th style="width: 22%">Free</th>
+              <th style="width: 22%">Pro</th>
+              <th style="width: 22%">Enterprise</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Public</th>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Private</th>
+              <td></td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Permissions</th>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Sharing</th>
+              <td></td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Unlimited members</th>
+              <td></td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Extra security</th>
+              <td></td>
+              <td></td>
+              <td>
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#check"></use>
+                </svg>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <svg
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect
+              width="100%"
+              height="100%"
+              fill="var(--bs-secondary-color)"
+            ></rect>
+          </svg>
+          <h2 class="fw-normal">Heading</h2>
+          <p>
+            Some representative placeholder content for the three columns of
+            text below the carousel. This is the first column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect
+              width="100%"
+              height="100%"
+              fill="var(--bs-secondary-color)"
+            ></rect>
+          </svg>
+          <h2 class="fw-normal">Heading</h2>
+          <p>
+            Another exciting bit of representative placeholder content. This
+            time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg
+            class="bd-placeholder-img rounded-circle"
+            width="140"
+            height="140"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect
+              width="100%"
+              height="100%"
+              fill="var(--bs-secondary-color)"
+            ></rect>
+          </svg>
+          <h2 class="fw-normal">Heading</h2>
+          <p>
+            And lastly this, the third column of representative placeholder
+            content.
+          </p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+      </div>
+      <!-- /.row -->
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
