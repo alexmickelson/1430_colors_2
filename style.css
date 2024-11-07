@@ -1,10 +1,11 @@
 
 
 :root {
-  --primary-color: #7c7c7c;
-  --secondary-color: #7c7c7c;
-  --background-color:#7c7c7c;
-  --text-color: #7c7c7c;
+  --primary-color: #7b7b7b;
+  --secondary-color: #7b7b7b;
+  --background-color:#7b7b7b;
+  --border-color: #7b7b7b;
+  --text-color: #7b7b7b;
 }
 
 
@@ -21,7 +22,7 @@
   --bs-emphasis-color: var(--text-color)!important;
   --bs-body-color: var(--text-color)!important;
   --bs-secondary-color: var(--secondary-color)!important;
-  --bs-border-color: var(--text-color)!important;
+  --bs-border-color: var(--border-color)!important;
 }
 
 .btn-primary {
