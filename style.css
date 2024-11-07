@@ -1,11 +1,11 @@
 
 
 :root {
-  --primary-color: #7b7b7b;
-  --secondary-color: #7b7b7b;
-  --background-color:#7b7b7b;
-  --border-color: #7b7b7b;
-  --text-color: #7b7b7b;
+  --primary-color: #7e7e7e;
+  --secondary-color: #7e7e7e;
+  --background-color:#7e7e7e;
+  --border-color: #7e7e7e;
+  --text-color: #7e7e7e;
 }
 
 
@@ -103,6 +103,10 @@
 .btn-outline-primary:hover {
     color: var(--background-color);
     background-color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
 }
 
 rect {
